@@ -1,0 +1,22 @@
+#water{
+    background: url("../images/water.svg");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+   }
+
+#boat{
+    height: 300px;
+    width: 400px;
+    background: url("../images/boat.svg") no-repeat;
+    transition: transform 3s linear;
+    transform: translateY(0px);
+    will-change: transform;
+
+}
+
