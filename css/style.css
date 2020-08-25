@@ -4,9 +4,7 @@
     background-repeat: repeat;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+   
     overflow: hidden;
    }
 
@@ -14,9 +12,26 @@
     height: 300px;
     width: 400px;
     background: url("../images/boat.svg") no-repeat;
-    transition: transform 3s linear;
+    transition: transform 5s linear;
     transform: translateY(0px);
-    will-change: transform;
+
 
 }
 
+#lotus1{
+    margin-left: 1100px;
+    height: 150px;
+    width: 150px;
+    background: url("../images/lotus.svg") no-repeat;
+    transition: transform 4s linear;
+    transform: translateY(0px);
+}
+
+#lotus2{
+    margin-left: 1000px;
+    height: 150px;
+    width: 150px;
+    background: url("../images/lotus.svg") no-repeat;
+    transition: transform 4s linear;
+    transform: translateY(0px);
+}
