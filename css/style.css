@@ -8,30 +8,51 @@
     overflow: hidden;
    }
 
+   .flowers{
+       display: flex;
+       justify-content: space-around;
+   }
 #boat{
     height: 300px;
     width: 400px;
     background: url("../images/boat.svg") no-repeat;
-    transition: transform 5s linear;
+    transition: transform 20s linear;
     transform: translateY(0px);
 
 
 }
 
 #lotus1{
-    margin-left: 1100px;
     height: 150px;
     width: 150px;
     background: url("../images/lotus.svg") no-repeat;
-    transition: transform 4s linear;
+    transition: transform 40s linear;
     transform: translateY(0px);
 }
 
 #lotus2{
-    margin-left: 1000px;
+    margin-right: 8rem;
     height: 150px;
     width: 150px;
     background: url("../images/lotus.svg") no-repeat;
-    transition: transform 4s linear;
+    transition: transform 40s linear;
+    transform: translateY(0px);
+}
+
+#lily1{
+    height: 100px;
+    width: 100px;
+    background: url("../images/lily.svg") no-repeat;
+    background-size: cover;
+    transition: transform 40s linear;
+    transform: translateY(0px);
+}
+
+#lily2{
+    height: 100px;
+    width: 100px;
+    background: url("../images/lily.svg") no-repeat;
+    background-size: cover;
+    transition: transform 40s linear;
     transform: translateY(0px);
 }
