@@ -16,7 +16,7 @@
     width: 400px;
     background: url("../images/boat.svg") no-repeat;
     transition: transform 20s linear;
-    transform: translateY(0px);
+    transform: translateX(0px);
 
 
 }
@@ -26,7 +26,7 @@
     width: 150px;
     background: url("../images/lotus.svg") no-repeat;
     transition: transform 40s linear;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }
 
 #lotus2{
@@ -35,7 +35,7 @@
     width: 150px;
     background: url("../images/lotus.svg") no-repeat;
     transition: transform 40s linear;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }
 
 #lily1{
@@ -44,7 +44,7 @@
     background: url("../images/lily.svg") no-repeat;
     background-size: cover;
     transition: transform 40s linear;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }
 
 #lily2{
@@ -53,5 +53,5 @@
     background: url("../images/lily.svg") no-repeat;
     background-size: cover;
     transition: transform 40s linear;
-    transform: translateY(0px);
+    transform: translateX(0px);
 }
